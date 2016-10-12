@@ -5,7 +5,6 @@ Minimal CSS is applied to allow for customization.
 
 Classes are generated for the dates in the calendar so different styles can be applied. 
 
-Code is commented for ease of understanding. 
 
 Relevant Files: 
 
