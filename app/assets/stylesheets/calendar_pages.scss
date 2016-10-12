@@ -1,0 +1,82 @@
+/* ----------------------------------------------- */
+/* SOME UNIVERSAL STYLING */
+/* ----------------------------------------------- */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body { 
+    background-color: #efefef; 
+    color: #555;
+    overflow-x: hidden;
+    padding: 1%;
+}
+
+section {
+    padding: 40px 0;
+}
+
+.row{
+    max-width: 1170px;
+    margin: 0 auto;
+}
+
+.box{
+    padding: 1%;
+}
+
+.clearfix {zoom: 1;}
+.clearfix:after {
+    content: '.';
+    clear: both;
+    display: block;
+    height: 0;
+    visibility: hidden;
+}
+
+/* ----------------------------------------------- */
+/* CALENDAR STYLING*/
+/* ----------------------------------------------- */
+.calendar-container{
+    position: relative;
+}
+
+.current-month{
+    text-align: center;
+}
+
+
+.headers > .box{
+    float: left;
+	height: 40px;
+	border: 1px solid #555;
+	text-align: center;
+	width:  14.28%; /* 100% / 7 */
+	width: -moz-calc(100%/7);
+	width: -webkit-calc(100%/7);
+	width: calc(100%/7);
+	position: relative;
+	
+}
+
+
+
+
+.week-div > .day-div{
+    float: left;
+	height: 80px;
+	overflow-x: hidden;
+	overflow-y: hidden;
+	border: 1px solid #555;
+	width:  14.28%; /* 100% / 7 */
+	width: -moz-calc(100%/7);
+	width: -webkit-calc(100%/7);
+	width: calc(100%/7);
+	position: relative;
+	.day-name{
+	    display: none;
+	}
+}
+

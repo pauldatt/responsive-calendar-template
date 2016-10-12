@@ -1,24 +1,21 @@
 
-     ,-----.,--.                  ,--. ,---.   ,--.,------.  ,------.
-    '  .--./|  | ,---. ,--.,--. ,-|  || o   \  |  ||  .-.  \ |  .---'
-    |  |    |  || .-. ||  ||  |' .-. |`..'  |  |  ||  |  \  :|  `--, 
-    '  '--'\|  |' '-' ''  ''  '\ `-' | .'  /   |  ||  '--'  /|  `---.
-     `-----'`--' `---'  `----'  `---'  `--'    `--'`-------' `------'
-    ----------------------------------------------------------------- 
+A simple responsive calendar template that uses divs instead of tables.
 
+Minimal CSS is applied to allow for customization.
 
-Welcome to your Rails project on Cloud9 IDE!
+Classes are generated for the dates in the calendar so different styles can be applied. 
 
-To get started, just do the following:
+Code is commented for ease of understanding. 
 
-1. Run the project with the "Run Project" button in the menu bar on top of the IDE.
-2. Preview your new app by clicking on the URL that appears in the Run panel below (https://responsive-calendar-kpauls.c9users.io/).
+Relevant Files: 
 
-Happy coding!
-The Cloud9 IDE team
+Calendar & Associated Class Code: 
+..app/helpers/calendar_pages_helper.rb
 
+Controller:
+..app/controllers/calendar_pages_controller.rb
 
-## Support & Documentation
+View Layout: 
+..app/views/calendar_pages
 
-Visit http://docs.c9.io for support, or to learn more about using Cloud9 IDE. 
-To watch some training videos, visit http://www.youtube.com/user/c9ide
+Feel free to use integrate it in your rails applications or customize it to your liking! 

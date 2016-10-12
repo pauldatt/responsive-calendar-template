@@ -1,0 +1,16 @@
+@media only screen and (max-width: 767px) {
+    
+
+    .headers{
+        display: none;
+    }
+    
+    .week-div > .day-div{
+        width: 100%;
+        height: 50px;
+        .day-name{
+            display: inline;
+            font-size: 10px;
+        }
+    }
+}

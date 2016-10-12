@@ -1,0 +1,29 @@
+<section class="calendar-container">
+    
+    <!--links that provide params to move to previous/next months and also to return to current date's month-->
+    <div class="row box current-month">
+        <%= link_to "<", date: @date.prev_month %>
+        <%= @date.strftime("%B %Y") %>
+        <%= link_to ">", date: @date.next_month %>
+        <%= link_to "Reset to Current", date: Date.today %>
+    </div>
+    
+    <!--A row to declare the header for the days of the week which are only available for screen size 767px+-->
+    <div class="row headers clearfix ">
+            <div class="box">Sun</div>
+            <div class="box">Mon</div>
+            <div class="box">Tue</div>
+            <div class="box">Wed</div>
+            <div class="box">Thu</div>
+            <div class="box"> Fri</div>
+            <div class="box">Sat</div>
+    </div>
+    
+    <!--the core calendar/ a partial is rendered for each week in the collection(partial in _week.html.erb)-->
+    <div class="row week-row">
+        <%= render partial: "week", collection: @calendar %>
+    </div>
+    
+    
+    
+</section>
